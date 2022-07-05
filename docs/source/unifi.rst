@@ -112,5 +112,6 @@ click on the device, scroll down to "Uplink (Wireless)" and just click on the na
 This will (temporarily) force it not to uplink with that particular device.
 
 Here are some links to possibly help you figure this out:
+
 * https://www.reddit.com/r/Ubiquiti/comments/4ei1rh/force_unifi_ap_to_wired_uplink/
 * https://community.spiceworks.com/topic/2283275-unifi-ap-ac-pro-wireless-uplink-when-connection-appears-valid (set lower link speed)
