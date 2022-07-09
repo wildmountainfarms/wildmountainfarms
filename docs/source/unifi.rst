@@ -104,14 +104,12 @@ We are able to access the UniFi web interface by going to https://unifi.wildmoun
 Node Wireless Uplink Over Wired
 -----------------------------------
 
-If a node is meshing wirelessly when you have it plugged into a wired connection, ask yourself a couple of things.
-First, is the ethernet cable good? Second, is it plugged into a switch that has a lower speed than the node it is meshing with?
-If the answer is yes to either of those, you will have to fix that problem. 
-Temporarily, you can go to `devices <https://unifi.wildmountainfarms.com/manage/default/devices>`_,
-click on the device, scroll down to "Uplink (Wireless)" and just click on the name of the device to the right of "Uplink".
-This will (temporarily) force it not to uplink with that particular device.
+We spent a while trying to figure out why a node wouldn't be wired.
+If a node is plugged into a switch, it will think it has Ethernet even if that switch isn't connected to your main netork...
 
-Here are some links to possibly help you figure this out:
+API
+-----
 
-* https://www.reddit.com/r/Ubiquiti/comments/4ei1rh/force_unifi_ap_to_wired_uplink/
-* https://community.spiceworks.com/topic/2283275-unifi-ap-ac-pro-wireless-uplink-when-connection-appears-valid (set lower link speed)
+There seems to be an undocumented API that we could use later.
+
+The POST request goes to 
